@@ -8,7 +8,11 @@
     "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["finanças", "backend", "api"],
+  "keywords": [
+    "finanças",
+    "backend",
+    "api"
+  ],
   "author": "Seu Nome",
   "license": "ISC",
   "dependencies": {
@@ -16,6 +20,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
     "mongoose": "^8.5.2"
   },
   "devDependencies": {

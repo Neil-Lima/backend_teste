@@ -8,7 +8,6 @@ const app = express();
 
 connectDatabase();
 
-// Configuração do CORS
 app.use(cors({
   origin: ['http://localhost:3000', 'https://seu-frontend-no-netlify.netlify.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
@@ -17,7 +16,6 @@ app.use(cors({
 
 app.use(express.json());
 
-// Nova rota raiz
 app.get('/', (req, res) => {
   res.send('Bem-vindo à API de Finanças');
 });
@@ -28,7 +26,7 @@ const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-  console.log(`Database: financas_db`);
+  console.log(`Database: teste_db`);
 });
 
 module.exports = app;
