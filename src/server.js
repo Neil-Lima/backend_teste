@@ -17,6 +17,11 @@ app.use(cors({
 
 app.use(express.json());
 
+// Nova rota raiz
+app.get('/', (req, res) => {
+  res.send('Bem-vindo à API de Finanças');
+});
+
 app.use('/api/usuarios', usuarioRoutes);
 
 const PORT = process.env.PORT || 5000;
