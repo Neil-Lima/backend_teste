@@ -1,0 +1,22 @@
+EXPLORADOR
+  BACKEND_TESTE
+    .vscode
+    node_modules
+    src
+      config
+        database.js
+      controllers
+        usuario.controller.js
+      middleware
+        auth.js
+      models
+        usuario.models.js
+      routes
+        usuario.routes.js
+      server.js
+    .env
+    .gitattributes
+    .gitignore
+    package-lock.json
+    package.json
+    vercel.json
