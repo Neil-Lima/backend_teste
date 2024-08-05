@@ -9,7 +9,7 @@ const app = express();
 connectDatabase();
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://seu-frontend-no-netlify.netlify.app'],
+  origin: ['http://localhost:3000', 'https://glittery-youtiao-1b95f9.netlify.app/'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
