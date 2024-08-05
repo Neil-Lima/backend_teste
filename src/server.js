@@ -9,7 +9,7 @@ const app = express();
 connectDatabase();
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://vocal-empanada-a895db.netlify.app'],
+  origin: ['http://localhost:3000', 'https://vocal-empanada-a895db.netlify.app', 'https://backend-teste-seven.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
